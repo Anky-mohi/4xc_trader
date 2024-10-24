@@ -145,7 +145,7 @@ const Home = () => {
         
         </div>
       </div>
-feeee
+
       <header>
         <div className="logo">
           {" "}
