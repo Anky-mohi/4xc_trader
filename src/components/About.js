@@ -103,7 +103,7 @@ const About = () => {
               </Link>
             </li>
             <li className="ws">
-              <Link to="/Pertner">
+              <Link to="/Pertners">
                 <span>
                   {" "}
                   <img className="qa" src="./partner.png" alt="" />{" "}
