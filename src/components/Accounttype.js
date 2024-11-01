@@ -195,61 +195,61 @@ const Accounttype = () => {
 
       <div class="account-section">
     <div class="account-header">
-        <h2>Matching the Needs of Every Trader</h2>
-        <p>Choose from our three account types or contact us for a tailor-made solution that meets your custom requirements.</p>
+        <h2>{t("Matching the Needs of Every Trader")}</h2>
+        <p>{t("Choose from our three account types or contact us for a tailor-made solution that meets your custom requirements.")}</p>
     </div>
     <br></br>
     <br></br>
     <div class="account-grid">
       
         <div class="account-card pro">
-            <h3>Pro</h3>
+            <h3>{t("Pro")}</h3>
             <ul class="account-details">
-                <li><strong>Minimum Deposit:</strong> $100</li>
-                <li><strong>Spreads From:</strong> 0.0 pips</li>
-                <li><strong>Base Currencies:</strong> USD | EUR | GBP | BRL</li>
-                <li><strong>Max Leverage:</strong> 1:500</li>
-                <li><strong>Min Lots:</strong> 0.01</li>
-                <li><strong>Trade Commission:</strong> 5 USD per round 1.0 Forex lot</li>
-                <li>All Strategies Allowed</li>
-                <li>Swap-free Islamic Account</li>
-                <li>Forward Contracts</li>
+                <li><strong>{t("Minimum Deposit:")}</strong> $100</li>
+                <li><strong>{t("Spreads From:")}</strong> 0.0 pips</li>
+                <li><strong>{t("Base Currencies:")}</strong> USD | EUR | GBP | BRL</li>
+                <li><strong>{t("Max Leverage:")}</strong> 1:500</li>
+                <li><strong>{t("Min Lots:")}</strong> 0.01</li>
+                <li><strong>{t("Trade Commission:")}</strong> 5 USD per round 1.0 Forex lot</li>
+                <li>{t("All Strategies Allowed")}</li>
+                <li>{t("Swap-free Islamic Account")}</li>
+                <li>{t("Forward Contracts")}</li>
             </ul>
-            <a href="#" class="btn">Open Account</a>
+            <a href="#" class="btn">{t("Open Account")}</a>
         </div>
         
   
         <div class="account-card standard">
-            <h3>Standard</h3>
+            <h3>{t("Standard")}</h3>
             <ul class="account-details">
-                <li><strong>Minimum Deposit:</strong> $50</li>
-                <li><strong>Spreads From:</strong> 1.0 pips</li>
-                <li><strong>Base Currencies:</strong> USD | EUR | GBP | BRL</li>
-                <li><strong>Max Leverage:</strong> 1:500</li>
-                <li><strong>Min Lots:</strong> 0.01</li>
-                <li><strong>Trade Commission:</strong> No Commission</li>
-                <li>All Strategies Allowed</li>
-                <li>Swap-free Islamic Account</li>
-                <li>Forward Contracts</li>
+                <li><strong>{t("Minimum Deposit:")}</strong> $50</li>
+                <li><strong>{t("Spreads From:")}</strong> 1.0 pips</li>
+                <li><strong>{t("Base Currencies:")}</strong> USD | EUR | GBP | BRL</li>
+                <li><strong>{t("Max Leverage:")}</strong> 1:500</li>
+                <li><strong>{t("Min Lots:")}</strong> 0.01</li>
+                <li><strong>{t("Trade Commission:")}</strong> No Commission</li>
+                <li>{t("All Strategies Allowed")}</li>
+                <li>{t("Swap-free Islamic Account")}</li>
+                <li>{t("Forward Contracts")}</li>
             </ul>
-            <a href="#" class="btn">Open Account</a>
+            <a href="#" class="btn">{t("Open Account")}</a>
         </div>
         
         
         <div class="account-card vip">
-            <h3>VIP</h3>
+            <h3>{t("VIP")}</h3>
             <ul class="account-details">
-                <li><strong>Minimum Deposit:</strong> $10,000</li>
-                <li><strong>Spreads From:</strong> 0.0 pips</li>
-                <li><strong>Base Currencies:</strong> USD | EUR | GBP | BRL</li>
-                <li><strong>Max Leverage:</strong> 1:500</li>
-                <li><strong>Min Lots:</strong> 0.01</li>
-                <li><strong>Trade Commission:</strong> 4 USD per round 1.0 Forex lot</li>
-                <li>All Strategies Allowed</li>
-                <li>Swap-free Islamic Account</li>
-                <li>Forward Contracts</li>
+                <li><strong>{t("Minimum Deposit:")}</strong> $10,000</li>
+                <li><strong>{t("Spreads From:")}</strong> 0.0 pips</li>
+                <li><strong>{t("Base Currencies:")}</strong> USD | EUR | GBP | BRL</li>
+                <li><strong>{t("Max Leverage:")}</strong> 1:500</li>
+                <li><strong>{t("Min Lots:")}</strong> 0.01</li>
+                <li><strong>{t("Trade Commission:")}</strong> 4 USD per round 1.0 Forex lot</li>
+                <li>{t("All Strategies Allowed")}</li>
+                <li>{t("Swap-free Islamic Account")}</li>
+                <li>{t("Forward Contracts")}</li>
             </ul>
-            <a href="#" class="btn">Open Account</a>
+            <a href="#" class="btn">{t("Open Account")}</a>
         </div>
     </div>
 </div>
@@ -269,57 +269,54 @@ const Accounttype = () => {
 
 
 
-      <footer class="footer">
+<footer class="footer">
     <div class="footer-container">
-
         <div class="footer-column">
-            <h4>4xCube Ltd</h4>
-            <p>Company Registration no. 12767/2018 | License number MC03/2018</p>
-            <p>1st Floor, BCI House, Avarua, Rarotonga, Cook Islands</p>
-            <p><a href="mailto:info@4xc.com">info@4xc.com</a></p>
+            <h4>{t("4xctrader Ltd")}</h4>
+            <p>{t("Company Registration no. 12767/2018 | License number MC03/2018")}</p>
+            <p>{t("1st Floor, BCI House, Avarua, Rarotonga, Cook Islands")}</p>
+            <p><a href="mailto:info@4xc.com">{t("info@4xc.com")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>TRADING INSTRUMENTS</h4>
-            <p><a href="#">Forex</a></p>
-            <p><a href="#">Metals</a></p>
-            <p><a href="#">Index CFDs and Oil</a></p>
-            <p><a href="#">Cryptos</a></p>
-            <p><a href="#">Forward Contracts</a></p>
+            <h4>{t("TRADING INSTRUMENTS")}</h4>
+            <p><a href="#">{t("Forex")}</a></p>
+            <p><a href="#">{t("Metals")}</a></p>
+            <p><a href="#">{t("Index CFDs and Oil")}</a></p>
+            <p><a href="#">{t("Cryptos")}</a></p>
+            <p><a href="#">{t("Forward Contracts")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>ACCOUNTS OVERVIEW</h4>
-            <p><a href="#">Pro Account</a></p>
-            <p><a href="#">Standard Account</a></p>
-            <p><a href="#">VIP Account</a></p>
+            <h4>{t("ACCOUNTS OVERVIEW")}</h4>
+            <p><a href="#">{t("Pro Account")}</a></p>
+            <p><a href="#">{t("Standard Account")}</a></p>
+            <p><a href="#">{t("VIP Account")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>SUPPORT</h4>
-            <p><a href="#">FAQ's</a></p>
-            <p><a href="#">Funding Methods</a></p>
-            <p><a href="#">Legal Documentation</a></p>
-            <p><a href="#">Contact Us</a></p>
+            <h4>{t("SUPPORT")}</h4>
+            <p><a href="#">{t("FAQ's")}</a></p>
+            <p><a href="#">{t("Funding Methods")}</a></p>
+            <p><a href="#">{t("Legal Documentation")}</a></p>
+            <p><a href="#">{t("Contact Us")}</a></p>
         </div>
-
     </div>
 
     <div class="legal-notice">
-        <p>High Risk Investment Notice: Online trading with margin carries a high level of risk and may not be suitable for all investors as you could sustain losses in excess of deposits. The products are intended for retail, professional, and eligible counterparty clients. For clients who maintain account(s) with 4XC, retail clients could sustain a total loss of deposited funds but are not subject to subsequent payment obligations beyond the deposited funds and professional clients could sustain losses in excess of deposits. Prior to trading any products offered by 4XC, any affiliates of aforementioned firms, or other firms within 4XC of companies [collectively the “4xCube Ltd”], carefully consider your financial situation and experience level. 4xCube Ltd may provide general commentary which is not intended as investment advice and must not be construed as such. Seek advice from a separate financial advisor. 4xCube Ltd assumes no liability for errors, inaccuracies or omissions; does not warrant the accuracy, completeness of information, text, graphics, links, or other items contained within these materials. Read and understand the Terms and Conditions on 4xCube Ltd websites prior to taking further action.</p>
-        <p>4XC is a trademark of 4xCube Ltd, registered in the Cook Islands with number ICA 12767/2018 and licensed by the FSC (Financial Supervisory Commission) with Money-Changing License number MC03/2018.</p>
-        <p>4xCube Ltd is audited by McMillan Woods.</p>
-        <p>4xCube Ltd does not offer its services to residents of certain jurisdictions such as the USA, Iraq, Iran, Myanmar, North Korea, and Portugal.</p>
+        <p>{t("High Risk Investment Notice: Online trading with margin carries a high level of risk and may not be suitable for all investors as you could sustain losses in excess of deposits. The products are intended for retail, professional, and eligible counterparty clients. For clients who maintain account(s) with 4xctrader, retail clients could sustain a total loss of deposited funds but are not subject to subsequent payment obligations beyond the deposited funds and professional clients could sustain losses in excess of deposits. Prior to trading any products offered by 4xctrader, any affiliates of aforementioned firms, or other firms within 4xctrader of companies [collectively the “4xctrader Ltd”], carefully consider your financial situation and experience level. 4xctrader Ltd may provide general commentary which is not intended as investment advice and must not be construed as such. Seek advice from a separate financial advisor. 4xctrader Ltd assumes no liability for errors, inaccuracies or omissions; does not warrant the accuracy, completeness of information, text, graphics, links, or other items contained within these materials. Read and understand the Terms and Conditions on 4xctrader Ltd websites prior to taking further action.")}</p>
+        <p>{t("4XC is a trademark of 4xctrader Ltd, registered in the Cook Islands with number ICA 12767/2018 and licensed by the FSC (Financial Supervisory Commission) with Money-Changing License number MC03/2018.")}</p>
+        <p>{t("4xctrader Ltd is audited by McMillan Woods.")}</p>
+        <p>{t("4xctrader Ltd does not offer its services to residents of certain jurisdictions such as the USA, Iraq, Iran, Myanmar, North Korea, and Portugal.")}</p>
     </div>
 
     <div class="footer-bottom">
-        <p>Official Sponsor: (Add Sponsor Logos Here)</p>
-        <p>Certification: (Add Certification Logos Here)</p>
-        <p>Copyright © 2018 - 2024 4XC.COM | <a href="#">Terms & Conditions</a> | <a href="#">Risk Disclosure</a> | <a href="#">KYC/AML Policy</a> | <a href="#">Privacy Policy</a></p>
-        <p>DMCA.com Protection Status</p>
+        <p>{t("Official Sponsor: 4ctrader")}</p>
+        <p>{t("Certification")}</p>
+        <p>{t("Copyright © 2018 - 2024 4XCTRADER.COM")}</p>
+        <p>{t("DMCA.com Protection Status")}</p>
     </div>
 </footer>
-       
 
         
       

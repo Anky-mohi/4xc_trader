@@ -27,7 +27,7 @@ const LanguageSwitcher = () => {
     // Function to hide the button after 10 seconds
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 9000); // 10 seconds in milliseconds
+    }, 50000); // 10 seconds in milliseconds
 
     // Clear the timeout when the component unmounts or when isVisible changes
     return () => clearTimeout(timer);

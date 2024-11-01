@@ -175,7 +175,7 @@ const Resources = () => {
   </div>
   <div class="content">
     
-    <a href="mailto:contact@yourdomain.com" class="contact-button">Contact us today</a>
+    <a href="mailto:contact@yourdomain.com" class="contact-button">{t("Contact us today")}</a>
   </div>
 </section>
 
@@ -183,7 +183,7 @@ const Resources = () => {
      
 <div class="news-section">
   <div class="container">
-    <h2>Latest Market News</h2>
+    <h2>{t("Latest Market News")}</h2>
 
     <div class="news-cards">
       
@@ -235,7 +235,7 @@ const Resources = () => {
    
     <div class="disclaimer">
       <p>
-        DISCLAIMER: This material comprises personal opinions and ideas. It does not suggest purchasing financial services, nor does it guarantee the performance or outcome of future transactions. The material should not be interpreted as containing any type of financial advice. The accuracy, validity, or completeness of this information is not guaranteed, and no liability is assumed for any loss related to any investment based on the material.
+      {t("DISCLAIMER: This material comprises personal opinions and ideas. It does not suggest purchasing financial services, nor does it guarantee the performance or outcome of future transactions. The material should not be interpreted as containing any type of financial advice. The accuracy, validity, or completeness of this information is not guaranteed, and no liability is assumed for any loss related to any investment based on the material.")}
       </p>
     </div>
   </div>
@@ -253,51 +253,52 @@ const Resources = () => {
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-column">
-            <h4>4xctrader Ltd</h4>
-            <p>Company Registration no. 12767/2018 | License number MC03/2018</p>
-            <p>1st Floor, BCI House, Avarua, Rarotonga, Cook Islands</p>
-            <p><a href="mailto:info@4xc.com">info@4xc.com</a></p>
+            <h4>{t("4xctrader Ltd")}</h4>
+            <p>{t("Company Registration no. 12767/2018 | License number MC03/2018")}</p>
+            <p>{t("1st Floor, BCI House, Avarua, Rarotonga, Cook Islands")}</p>
+            <p><a href="mailto:info@4xc.com">{t("info@4xc.com")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>TRADING INSTRUMENTS</h4>
-            <p><a href="#">Forex</a></p>
-            <p><a href="#">Metals</a></p>
-            <p><a href="#">Index CFDs and Oil</a></p>
-            <p><a href="#">Cryptos</a></p>
-            <p><a href="#">Forward Contracts</a></p>
+            <h4>{t("TRADING INSTRUMENTS")}</h4>
+            <p><a href="#">{t("Forex")}</a></p>
+            <p><a href="#">{t("Metals")}</a></p>
+            <p><a href="#">{t("Index CFDs and Oil")}</a></p>
+            <p><a href="#">{t("Cryptos")}</a></p>
+            <p><a href="#">{t("Forward Contracts")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>ACCOUNTS OVERVIEW</h4>
-            <p><a href="#">Pro Account</a></p>
-            <p><a href="#">Standard Account</a></p>
-            <p><a href="#">VIP Account</a></p>
+            <h4>{t("ACCOUNTS OVERVIEW")}</h4>
+            <p><a href="#">{t("Pro Account")}</a></p>
+            <p><a href="#">{t("Standard Account")}</a></p>
+            <p><a href="#">{t("VIP Account")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>SUPPORT</h4>
-            <p><a href="#">FAQ's</a></p>
-            <p><a href="#">Funding Methods</a></p>
-            <p><a href="#">Legal Documentation</a></p>
-            <p><a href="#">Contact Us</a></p>
+            <h4>{t("SUPPORT")}</h4>
+            <p><a href="#">{t("FAQ's")}</a></p>
+            <p><a href="#">{t("Funding Methods")}</a></p>
+            <p><a href="#">{t("Legal Documentation")}</a></p>
+            <p><a href="#">{t("Contact Us")}</a></p>
         </div>
     </div>
 
     <div class="legal-notice">
-        <p>High Risk Investment Notice: Online trading with margin carries a high level of risk and may not be suitable for all investors as you could sustain losses in excess of deposits. The products are intended for retail, professional, and eligible counterparty clients. For clients who maintain account(s) with 4xctrader, retail clients could sustain a total loss of deposited funds but are not subject to subsequent payment obligations beyond the deposited funds and professional clients could sustain losses in excess of deposits. Prior to trading any products offered by 4xctrader, any affiliates of aforementioned firms, or other firms within 4xctrader of companies [collectively the “4xctrader Ltd”], carefully consider your financial situation and experience level. 4xctrader Ltd may provide general commentary which is not intended as investment advice and must not be construed as such. Seek advice from a separate financial advisor. 4xctrader Ltd assumes no liability for errors, inaccuracies or omissions; does not warrant the accuracy, completeness of information, text, graphics, links, or other items contained within these materials. Read and understand the Terms and Conditions on 4xctrader Ltd websites prior to taking further action.</p>
-        <p>4XC is a trademark of 4xctrader Ltd, registered in the Cook Islands with number ICA 12767/2018 and licensed by the FSC (Financial Supervisory Commission) with Money-Changing License number MC03/2018.</p>
-        <p>4xctrader Ltd is audited by McMillan Woods.</p>
-        <p>4xctrader Ltd does not offer its services to residents of certain jurisdictions such as the USA, Iraq, Iran, Myanmar, North Korea, and Portugal.</p>
+        <p>{t("High Risk Investment Notice: Online trading with margin carries a high level of risk and may not be suitable for all investors as you could sustain losses in excess of deposits. The products are intended for retail, professional, and eligible counterparty clients. For clients who maintain account(s) with 4xctrader, retail clients could sustain a total loss of deposited funds but are not subject to subsequent payment obligations beyond the deposited funds and professional clients could sustain losses in excess of deposits. Prior to trading any products offered by 4xctrader, any affiliates of aforementioned firms, or other firms within 4xctrader of companies [collectively the “4xctrader Ltd”], carefully consider your financial situation and experience level. 4xctrader Ltd may provide general commentary which is not intended as investment advice and must not be construed as such. Seek advice from a separate financial advisor. 4xctrader Ltd assumes no liability for errors, inaccuracies or omissions; does not warrant the accuracy, completeness of information, text, graphics, links, or other items contained within these materials. Read and understand the Terms and Conditions on 4xctrader Ltd websites prior to taking further action.")}</p>
+        <p>{t("4XC is a trademark of 4xctrader Ltd, registered in the Cook Islands with number ICA 12767/2018 and licensed by the FSC (Financial Supervisory Commission) with Money-Changing License number MC03/2018.")}</p>
+        <p>{t("4xctrader Ltd is audited by McMillan Woods.")}</p>
+        <p>{t("4xctrader Ltd does not offer its services to residents of certain jurisdictions such as the USA, Iraq, Iran, Myanmar, North Korea, and Portugal.")}</p>
     </div>
 
     <div class="footer-bottom">
-        <p>Official Sponsor: (Add Sponsor Logos Here)</p>
-        <p>Certification: (Add Certification Logos Here)</p>
-        <p>Copyright © 2018 - 2024 4XC.COM | <a href="#">Terms & Conditions</a> | <a href="#">Risk Disclosure</a> | <a href="#">KYC/AML Policy</a> | <a href="#">Privacy Policy</a></p>
-        <p>DMCA.com Protection Status</p>
+        <p>{t("Official Sponsor: 4ctrader")}</p>
+        <p>{t("Certification")}</p>
+        <p>{t("Copyright © 2018 - 2024 4XCTRADER.COM")}</p>
+        <p>{t("DMCA.com Protection Status")}</p>
     </div>
 </footer>
+
 
   
   

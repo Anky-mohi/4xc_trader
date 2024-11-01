@@ -241,7 +241,7 @@ const Home = () => {
               </h1>
               <p class="dc pm f22 dwt st f-w-100">
                 {t(
-                  " With over 13 years of experience in the market, we are the most used binary options broker in Europe. Our journey is marked by transparency, reliability, and innovation, making us the preferred choice for traders seeking safety and performance."
+                  "With over 13 years of experience in the market, we are the most used binary options broker in Europe. Our journey is marked by transparency, reliability, and innovation, making us the preferred choice for traders seeking safety and performance."
                 )}
               </p>
               <p class="dc pm f22 dwt st f-w-100">
@@ -302,42 +302,42 @@ const Home = () => {
 
 
         <div class="section2">
-    <h1 class="sub">ACCOUNTS THAT MATCH YOUR NEEDS</h1>
-    <p>Select your preferred account type, or get in touch with us for a personalised solution designed just for you.</p>
+    <h1 class="sub"> {t("ACCOUNTS THAT MATCH YOUR NEEDS")}</h1>
+    <p> {t("Select your preferred account type or contact us for a custom solution designed just for you.")}</p>
 </div>
 <br></br>
 
 <div class="card-container">
 
     <div class="card1">
-        <h3>Pro</h3>
-        <p>For More Experienced Traders Who Want A Professional Advantage.</p>
+        <h3>{t("Pro")}</h3>
+        <p>{t("For More Experienced Traders Who Want A Professional Advantage.")}</p>
         <br/>
         <hr/>
         <Link to="/Accounttype">
-            <button>Choose Pro >></button>
+            <button>{t("Choose Pro")} >></button>
         </Link>
     </div>
     
   
     <div class="card2">
-        <h3>Standard</h3>
-        <p>Standard On-line Trading Accounts. Great for All Types of Traders</p>
+        <h3>{t("Standard")}</h3>
+        <p>{t("Standard On-line Trading Accounts. Great for All Types of Traders")}</p>
         <br/>
         <hr/>
         <Link to="/Accounttype">
-            <button>Choose Standard >></button>
+            <button> {t("Choose Standard")}>></button>
         </Link>
     </div>
     
   
     <div class="card3">
         <h3>VIP</h3>
-        <p>Better Flexibility and Exclusive benefits</p>
+        <p>{t("Better Flexibility and Exclusive benefits")}</p>
         <br/>
         <hr/>
         <Link to="/Accounttype">
-            <button>Choose VIP >></button>
+            <button>{t("Choose VIP")} >></button>
         </Link>
     </div>
 </div>
@@ -359,9 +359,9 @@ const Home = () => {
             <img src="./480@2x.webp" alt="Feature Image 1"/>
         </div>
         <div class="feature-content">
-            <h2>Risk Management
+            <h2>{t("Risk Management")}
             </h2>
-            <p>With features such as Stop Loss/Take Profit, Negative Balance Protection and Trailing Stop, you can manage your losses and profits at the levels you set..</p>
+            <p>{t("With features such as Stop Loss/Take Profit, Negative Balance Protection and Trailing Stop, you can manage your losses and profits at the levels you set..")}</p>
             
         </div>
     </div>
@@ -371,9 +371,9 @@ const Home = () => {
             <img src="./840@1x (1).webp" alt="Feature Image 2"/>
         </div>
         <div class="feature-content">
-            <h2>Trading Community
+            <h2>{t("Trading Community")}
             </h2>
-            <p>Join the massive IQ Option community, discuss trading ideas and opportunities, or simply follow other traders with features like Trader Sentiment and Community Live Trades..</p>
+            <p>{t("Join the massive 4xctraders community, discuss trading ideas and opportunities, or simply follow other traders with features like Trader Sentiment and Community Live Trades..")}</p>
            
         </div>
     </div>
@@ -383,9 +383,9 @@ const Home = () => {
             <img src="./840@1x.webp" alt="Feature Image 3"/>
         </div>
         <div class="feature-content">
-            <h2>Analysis & Alerts
+            <h2>{t("Analysis & Alerts")}
             </h2>
-            <p>Get the most out of fundamental and technical analysis with our News Feed and Economic Calendars. More than 100 most widely used technical indicators and widgets. Always stay up-to-date on what is happening in the financial markets with our customizable price alerts..</p>
+            <p>{t("Get the most out of fundamental and technical analysis with our News Feed and Economic Calendars. More than 100 most widely used technical indicators and widgets. Always stay up-to-date on what is happening in the financial markets with our customizable price alerts..")}</p>
             
         </div>
     </div>
@@ -394,15 +394,15 @@ const Home = () => {
      
 <div class="news-section">
   <div class="container">
-    <h2>Latest Market News</h2>
+    <h2>{t("Latest Market News")}</h2>
 
     <div class="news-cards">
       
       <div class="news-card">
         <img src="aud_11.jpg" alt="Australia's CPI Growth" class="news-thumbnail" />
         <div class="news-content">
-          <h3>Australia's CPI Growth Slows to 3.5%, Impacting AUD Performance</h3>
-          <p>9 hours ago</p>
+          <h3>{t("Australia's CPI Growth Slows to 3.5%, Impacting AUD Performance")}</h3>
+          <p>{t("9 hours ago")}</p>
         </div>
       </div>
 
@@ -410,8 +410,8 @@ const Home = () => {
       <div class="news-card">
         <img src="market_update_4.jpg" alt="Yen Dips Amid Diverging US and Japan Rate Expectations" class="news-thumbnail" />
         <div class="news-content">
-          <h3>Yen Dips Amid Diverging US and Japan Rate Expectations</h3>
-          <p>9 hours ago</p>
+          <h3>{t("Yen Dips Amid Diverging US and Japan Rate Expectations")}</h3>
+          <p>{t("9 hours ago")}</p>
         </div>
       </div>
 
@@ -419,8 +419,8 @@ const Home = () => {
       <div class="news-card">
         <img src="gold_3.jpg" alt="Market Dynamics Amid Military Escalation" class="news-thumbnail" />
         <div class="news-content">
-          <h3>Market Dynamics Amid Military Escalation: Gold Shines as Violence Rises</h3>
-          <p>10 hours ago</p>
+          <h3>{t("Market Dynamics Amid Military Escalation: Gold Shines as Violence Rises")}</h3>
+          <p>{t("10 hours ago")}</p>
         </div>
       </div>
 
@@ -428,8 +428,8 @@ const Home = () => {
       <div class="news-card">
         <img src="aud_7.jpg" alt="Geopolitical Tensions Weigh on Australian Dollar" class="news-thumbnail" />
         <div class="news-content">
-          <h3>Geopolitical Tensions Weigh on Australian Dollar Ahead of CPI Report</h3>
-          <p>10 hours ago</p>
+          <h3>{t("Geopolitical Tensions Weigh on Australian Dollar Ahead of CPI Report")}</h3>
+          <p>{t("10 hours ago")}</p>
         </div>
       </div>
 
@@ -437,8 +437,8 @@ const Home = () => {
       <div class="news-card">
         <img src="aud_3.jpg" alt="Australian Dollar Stabilizes" class="news-thumbnail" />
         <div class="news-content">
-          <h3>Australian Dollar Stabilizes as RBA Maintains Hawkish Stance Amid Fed Rate Cut Speculations</h3>
-          <p>a day ago</p>
+          <h3>{t("Australian Dollar Stabilizes as RBA Maintains Hawkish Stance Amid Fed Rate Cut Speculations")}</h3>
+          <p>{t("a day ago")}</p>
         </div>
       </div>
     </div>
@@ -446,7 +446,7 @@ const Home = () => {
    
     <div class="disclaimer">
       <p>
-        DISCLAIMER: This material comprises personal opinions and ideas. It does not suggest purchasing financial services, nor does it guarantee the performance or outcome of future transactions. The material should not be interpreted as containing any type of financial advice. The accuracy, validity, or completeness of this information is not guaranteed, and no liability is assumed for any loss related to any investment based on the material.
+      {t("DISCLAIMER: This material comprises personal opinions and ideas. It does not suggest purchasing financial services, nor does it guarantee the performance or outcome of future transactions. The material should not be interpreted as containing any type of financial advice. The accuracy, validity, or completeness of this information is not guaranteed, and no liability is assumed for any loss related to any investment based on the material.")}
       </p>
     </div>
   </div>
@@ -456,24 +456,24 @@ const Home = () => {
 
 <div class="section">
         <div class="section-header">
-            <h2 className="red"> Start Trading in Three Steps</h2>
+            <h2 className="red"> {t("Start Trading in Three Steps")}</h2>
         </div>
         <div class="section-content">
             <div class="column">
                 <img src="./registered.png" alt="Why Choose Us 1 Icon"/>
-                <h3>Registered</h3>
-                <p>Open an account for free in just a few minutes.</p>
+                <h3>{t("Registered")}</h3>
+                <p>{t("Open an account for free in just a few minutes.")}</p>
             </div>
             <div class="column">
                 <img src="./study.png" alt="Why Choose Us 2 Icon"/>
-                <h3>Practice</h3>
-                <p>Master your skills with a practice account and educational content.</p>
+                <h3>{t("Practice")}</h3>
+                <p>{t("Master your skills with a practice account and educational content.")}</p>
             </div>
             <div class="column">
                 <img src="./purse.png" alt="Why Choose Us 3 Icon"/>
-                <h3>Deposit & Trade
+                <h3>{t("Deposit & Trade")}
                 </h3>
-                <p>More than 250 instruments and a minimum deposit of $10 for optimal trading.</p>
+                <p>{t("More than 250 instruments and a minimum deposit of $10 for optimal trading.")}</p>
             </div>
         </div>
     </div>
@@ -482,11 +482,11 @@ const Home = () => {
 </br>
 <div class="hero-section">
     <div class="hero-content">
-        <h1>Online Trading Platform
+        <h1>{t("Online Trading Platform")}
         </h1>
-        <p>CFDs on Stocks, ETFs, Commodities, Indices, Cryptocurrencies and Forex
+        <p>{t("CFDs on Stocks, ETFs, Commodities, Indices, Cryptocurrencies and Forex")}
         .</p>
-        <button>Start Trading</button>
+        <button>{t("Start Trading")}</button>
     </div>
 </div>
 
@@ -497,49 +497,49 @@ const Home = () => {
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-column">
-            <h4>4xctrader Ltd</h4>
-            <p>Company Registration no. 12767/2018 | License number MC03/2018</p>
-            <p>1st Floor, BCI House, Avarua, Rarotonga, Cook Islands</p>
-            <p><a href="mailto:info@4xc.com">info@4xc.com</a></p>
+            <h4>{t("4xctrader Ltd")}</h4>
+            <p>{t("Company Registration no. 12767/2018 | License number MC03/2018")}</p>
+            <p>{t("1st Floor, BCI House, Avarua, Rarotonga, Cook Islands")}</p>
+            <p><a href="mailto:info@4xc.com">{t("info@4xc.com")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>TRADING INSTRUMENTS</h4>
-            <p><a href="#">Forex</a></p>
-            <p><a href="#">Metals</a></p>
-            <p><a href="#">Index CFDs and Oil</a></p>
-            <p><a href="#">Cryptos</a></p>
-            <p><a href="#">Forward Contracts</a></p>
+            <h4>{t("TRADING INSTRUMENTS")}</h4>
+            <p><a href="#">{t("Forex")}</a></p>
+            <p><a href="#">{t("Metals")}</a></p>
+            <p><a href="#">{t("Index CFDs and Oil")}</a></p>
+            <p><a href="#">{t("Cryptos")}</a></p>
+            <p><a href="#">{t("Forward Contracts")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>ACCOUNTS OVERVIEW</h4>
-            <p><a href="#">Pro Account</a></p>
-            <p><a href="#">Standard Account</a></p>
-            <p><a href="#">VIP Account</a></p>
+            <h4>{t("ACCOUNTS OVERVIEW")}</h4>
+            <p><a href="#">{t("Pro Account")}</a></p>
+            <p><a href="#">{t("Standard Account")}</a></p>
+            <p><a href="#">{t("VIP Account")}</a></p>
         </div>
 
         <div class="footer-column">
-            <h4>SUPPORT</h4>
-            <p><a href="#">FAQ's</a></p>
-            <p><a href="#">Funding Methods</a></p>
-            <p><a href="#">Legal Documentation</a></p>
-            <p><a href="#">Contact Us</a></p>
+            <h4>{t("SUPPORT")}</h4>
+            <p><a href="#">{t("FAQ's")}</a></p>
+            <p><a href="#">{t("Funding Methods")}</a></p>
+            <p><a href="#">{t("Legal Documentation")}</a></p>
+            <p><a href="#">{t("Contact Us")}</a></p>
         </div>
     </div>
 
     <div class="legal-notice">
-        <p>High Risk Investment Notice: Online trading with margin carries a high level of risk and may not be suitable for all investors as you could sustain losses in excess of deposits. The products are intended for retail, professional, and eligible counterparty clients. For clients who maintain account(s) with 4xctrader, retail clients could sustain a total loss of deposited funds but are not subject to subsequent payment obligations beyond the deposited funds and professional clients could sustain losses in excess of deposits. Prior to trading any products offered by 4xctrader, any affiliates of aforementioned firms, or other firms within 4xctrader of companies [collectively the “4xctrader Ltd”], carefully consider your financial situation and experience level. 4xctrader Ltd may provide general commentary which is not intended as investment advice and must not be construed as such. Seek advice from a separate financial advisor. 4xctrader Ltd assumes no liability for errors, inaccuracies or omissions; does not warrant the accuracy, completeness of information, text, graphics, links, or other items contained within these materials. Read and understand the Terms and Conditions on 4xctrader Ltd websites prior to taking further action.</p>
-        <p>4XC is a trademark of 4xctrader Ltd, registered in the Cook Islands with number ICA 12767/2018 and licensed by the FSC (Financial Supervisory Commission) with Money-Changing License number MC03/2018.</p>
-        <p>4xctrader Ltd is audited by McMillan Woods.</p>
-        <p>4xctrader Ltd does not offer its services to residents of certain jurisdictions such as the USA, Iraq, Iran, Myanmar, North Korea, and Portugal.</p>
+        <p>{t("High Risk Investment Notice: Online trading with margin carries a high level of risk and may not be suitable for all investors as you could sustain losses in excess of deposits. The products are intended for retail, professional, and eligible counterparty clients. For clients who maintain account(s) with 4xctrader, retail clients could sustain a total loss of deposited funds but are not subject to subsequent payment obligations beyond the deposited funds and professional clients could sustain losses in excess of deposits. Prior to trading any products offered by 4xctrader, any affiliates of aforementioned firms, or other firms within 4xctrader of companies [collectively the “4xctrader Ltd”], carefully consider your financial situation and experience level. 4xctrader Ltd may provide general commentary which is not intended as investment advice and must not be construed as such. Seek advice from a separate financial advisor. 4xctrader Ltd assumes no liability for errors, inaccuracies or omissions; does not warrant the accuracy, completeness of information, text, graphics, links, or other items contained within these materials. Read and understand the Terms and Conditions on 4xctrader Ltd websites prior to taking further action.")}</p>
+        <p>{t("4XC is a trademark of 4xctrader Ltd, registered in the Cook Islands with number ICA 12767/2018 and licensed by the FSC (Financial Supervisory Commission) with Money-Changing License number MC03/2018.")}</p>
+        <p>{t("4xctrader Ltd is audited by McMillan Woods.")}</p>
+        <p>{t("4xctrader Ltd does not offer its services to residents of certain jurisdictions such as the USA, Iraq, Iran, Myanmar, North Korea, and Portugal.")}</p>
     </div>
 
     <div class="footer-bottom">
-        <p>Official Sponsor: (Add Sponsor Logos Here)</p>
-        <p>Certification: (Add Certification Logos Here)</p>
-        <p>Copyright © 2018 - 2024 4XC.COM | <a href="#">Terms & Conditions</a> | <a href="#">Risk Disclosure</a> | <a href="#">KYC/AML Policy</a> | <a href="#">Privacy Policy</a></p>
-        <p>DMCA.com Protection Status</p>
+        <p>{t("Official Sponsor: 4ctrader")}</p>
+        <p>{t("Certification")}</p>
+        <p>{t("Copyright © 2018 - 2024 4XCTRADER.COM")}</p>
+        <p>{t("DMCA.com Protection Status")}</p>
     </div>
 </footer>
 

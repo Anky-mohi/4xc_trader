@@ -1,72 +1,81 @@
-.learn-section {
-    padding: 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+/* Global Styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.learn-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #121212;
+  border-radius: 7px;
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  color: #f9a825; /* Vibrant yellow accent */
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #f9a825;
+  margin: 0.5rem auto;
+  animation: slideIn 1s ease;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(249, 168, 37, 0.3);
+}
+
+.section h2 {
+  color: #ffcc80;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.section p,
+.section li {
+  line-height: 1.6;
+  color: #b0bec5;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    width: 0;
+    opacity: 0;
   }
-  
-  .section-title {
-    font-size: 2.5rem;
-    color: #333;
-    text-align: center;
-    margin-bottom: 40px;
-    position: relative;
+  to {
+    width: 60px;
+    opacity: 1;
   }
-  
-  .faq-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .faq-item {
-    background: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .faq-item:hover {
-    transform: translateY(-10px);
-  }
-  
-  .faq-title {
-    background: #007bff;
-    color: white;
-    padding: 15px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin: 0;
-  }
-  
-  .faq-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
-    padding: 0 20px;
-    background: #fff;
-  }
-  
-  .faq-content p, .faq-content ol {
-    padding: 20px 0;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  
-  .faq-content.active {
-    max-height: 500px; /* Enough height for the content */
-  }
-  
-  @media (max-width: 768px) {
-    .section-title {
-      font-size: 2rem;
-    }
-  
-    .faq-title {
-      font-size: 1.1rem;
-    }
-  }
-  
+}
